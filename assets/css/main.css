@@ -501,19 +501,58 @@
     font-size: 15px;
     font-weight: 400;
 }
+
 .testimonial .dots {
     column-gap: 0;
     width: 257px;
     height: 122px;
     justify-content: space-between;
 }
+
 .testimonial .dots.first {
     top: 0;
     right: -162px;
     transform: rotate(-58.238deg);
 }
+
 .testimonial .dots.second {
     bottom: 63px;
     left: -166px;
     transform: rotate(62deg);
+}
+
+
+.contact {
+    background-color: var(--second-blue);
+    height: 524px;
+    padding: 132px;
+}
+
+.contact .container {
+    width: 870px;
+    height: 260px;
+    text-align: center;
+}
+
+.contact .container .header {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 11px;
+}
+
+.contact .container .title {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 38px;
+}
+
+.contact .container button {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 14px 25px;
+    border-radius: 5px;
 }
