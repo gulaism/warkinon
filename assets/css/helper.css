@@ -23,9 +23,6 @@ section{
 .text-white {
     color: #fff;
 }
-.text-black {
-    color: #000;
-}
 .btn {
     border: none;   
     cursor: pointer;

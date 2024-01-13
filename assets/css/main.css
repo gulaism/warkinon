@@ -51,6 +51,7 @@
     height: 58px;
     border-radius: 50px;
 }
+
 .hiring .container .img .image .bubbles {
     top: 69px;
     left: 125px;
@@ -60,22 +61,46 @@
     display: flex;
     column-gap: 21px;
 }
+
 .hiring .container .img .sm-image {
     width: 64px;
     height: 55px;
     margin-top: 515px;
 }
+
 .hiring .container .image {
     width: 602px;
     height: 655px;
     object-fit: cover;
     margin-top: 60px;
 }
+
 .hiring .container .dots-first {
     top: 0;
     right: 3px;
 }
+
 .hiring .container .dots-second {
     bottom: 46px;
     left: 3px;
+}
+
+.companies .container {
+    width: 1082px;
+    margin-bottom: 210px;
+}
+
+.companies .container .header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 42px;
+}
+.companies .container .logos {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+    align-items: center;
 }
