@@ -97,10 +97,89 @@
     line-height: normal;
     margin-bottom: 42px;
 }
+
 .companies .container .logos {
     height: 40px;
     display: flex;
     justify-content: space-between;
     column-gap: 90px;
     align-items: center;
+}
+
+.process {
+    height: 461px;
+    margin-bottom: 306px;
+}
+
+.process .container {
+    column-gap: 45px;
+    width: 1176px;
+}
+
+.process .container .image {
+    width: 590px;
+    height: 461px;
+}
+
+.process .container .image .box {
+    width: 276px;
+    height: 226px;
+    background-color: #FBB8AE;
+    border-radius: 32px;
+    top: 0;
+    left: 0;
+}
+
+.process .container .image .girl-2 {
+    width: 514px;
+    height: 406px;
+    object-fit: cover;
+    border-radius: 32px;
+    top: 27px;
+    left: 34px;
+}
+.process .container .image .dots {
+    bottom: 0;
+    right: 0;
+    z-index: -3;
+}
+.process .container .text {
+    margin-top: 80px;
+    margin-bottom: 61px;
+}
+
+.process .container .text .title,
+.process .container .text .subtitle {
+    color: #39364E;
+}
+
+.process .container .text .subtitle,
+.process .container .text button {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.process .container .text .title {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 120%;
+    width: 541px;
+    margin-bottom: 14px;
+}
+
+.process .container .text .subtitle {
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    width: 478px;
+    height: 90px;
+    margin-bottom: 29px;
+}
+
+.process .container .text button {
+    width: 167px;
+    padding: 14px 25px;
+    border-radius: 50px;
+    background: var(--second-blue);
+    color: #fff;
+    font-weight: 600;
 }
