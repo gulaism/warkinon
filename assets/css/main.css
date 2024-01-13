@@ -389,3 +389,131 @@
     font-weight: 600;
     line-height: 140%;
 }
+
+.testimonial {
+    height: 690px;
+    background-color: #F5F4F0;
+    margin-bottom: 8px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.testimonial .container {
+    height: 460px;
+    width: 1200px;
+}
+
+.testimonial .container .title {
+    color: #39364E;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.testimonial .container .subtitle {
+    color: #39364E;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    padding-bottom: 80px;
+}
+
+.testimonial .container .boxes {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+
+.testimonial .container .boxes .box>img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 68px;
+}
+
+.testimonial .container .boxes .box {
+    border-radius: 10px;
+    border: 1px solid rgba(105, 105, 105, 0.10);
+    background: #FFF;
+    height: 287px;
+    padding-top: 62px;
+    padding-left: 33px;
+    width: calc((1200px - 48px) / 3);
+}
+
+.testimonial .container .boxes .box .info {
+    margin-bottom: 39px;
+}
+
+.testimonial .container .boxes .box .info .text {
+    color: #696969;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 75px;
+    width: 225px;
+    top: 60px;
+    left: 110px;
+}
+
+.testimonial .container .boxes .box .info .text2 {
+    color: #39364E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.testimonial .container .boxes .box .info .text-emoji {
+    column-gap: 5px;
+    top: 139px;
+    left: 110px;
+}
+
+.testimonial .container .boxes .box .info .text-emoji::after {
+    content: '';
+    width: 220px;
+    height: 1px;
+    background-color: #F0F0F0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.testimonial .container .boxes .box .who {
+    bottom: 87px;
+    left: 110px;
+    line-height: 22px;
+    column-gap: 8px;
+}
+
+.testimonial .container .boxes .box .who .name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--second-blue);
+}
+
+.testimonial .container .boxes .box .who .speciality {
+    color: #ACACAC;
+    font-size: 15px;
+    font-weight: 400;
+}
+.testimonial .dots {
+    column-gap: 0;
+    width: 257px;
+    height: 122px;
+    justify-content: space-between;
+}
+.testimonial .dots.first {
+    top: 0;
+    right: -162px;
+    transform: rotate(-58.238deg);
+}
+.testimonial .dots.second {
+    bottom: 63px;
+    left: -166px;
+    transform: rotate(62deg);
+}

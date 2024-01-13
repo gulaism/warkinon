@@ -1,5 +1,6 @@
+
 section{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .center {
     margin: 0 auto;
