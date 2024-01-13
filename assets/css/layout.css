@@ -1,0 +1,67 @@
+header {
+    background-color: var(--bg-header);
+    height: 118px;
+}
+
+header .container {
+    width: 1200px;
+    display: flex;
+}
+
+header .container .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+    column-gap: 8px;
+    
+}
+
+header .container .logo-img {
+    width: 28px;
+    height: 28px;
+}
+
+header .container .logo .logo-name {
+    color: #0F0D1C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 132px;
+}
+
+header .container .navbar {
+    width: 512px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 28px;
+}
+
+header .container .navbar a {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5A5A5A;
+}
+
+header .container .navbar .active {
+    color: #1F0C0B;
+    text-decoration: underline;
+}
+
+header button {
+    background-color: var(--first-blue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #fff;
+    height: 42px;
+    margin-left: 275px;
+    margin-top: 52px;
+    border-radius: 42px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 134px;
+}
