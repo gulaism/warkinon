@@ -104,7 +104,6 @@
 }
 
 .process {
-    height: 461px;
     margin-bottom: 306px;
 }
 
@@ -143,8 +142,8 @@
 }
 
 .process .container .text {
-    margin-top: 80px;
-    margin-bottom: 61px;
+    padding-top: 81px;
+    padding-bottom: 60px;
 }
 
 .process .container .text .title,
@@ -170,12 +169,10 @@
     font-weight: 400;
     letter-spacing: 0.18px;
     width: 478px;
-    height: 90px;
     margin-bottom: 29px;
 }
 
 .process .container .text button {
-    width: 167px;
     padding: 14px 25px;
     border-radius: 50px;
     background: var(--second-blue);
