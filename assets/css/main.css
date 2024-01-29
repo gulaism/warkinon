@@ -1,10 +1,7 @@
 .hiring {
     background-color: var(--bg-header);
     margin-bottom: 160px;
-    height: 739px;
 }
-
-
 .hiring .container {
     width: 1200px;
     display: flex;
@@ -12,7 +9,8 @@
 }
 
 .hiring .container .info {
-    margin-top: 169px;
+    padding-top: 193px;
+    padding-bottom: 160px;
 }
 
 .hiring .container .info .title {
