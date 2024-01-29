@@ -332,7 +332,6 @@
 }
 
 .portfolio {
-    height: 1392px;
     margin-bottom: 142px;
 }
 
@@ -355,7 +354,10 @@
     line-height: 140%;
     padding-bottom: 75px;
 }
-
+.portfolio .container .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
 .portfolio .container figure {
     width: 590px;
     height: 603px;
@@ -371,11 +373,8 @@
     margin-bottom: 32px;
 }
 
-.portfolio .container .box {
-    column-gap: 61px;
-}
 
-.portfolio .container .box .dscrb {
+.portfolio .container .dscrb {
     color: #39364E;
     text-align: center;
     font-size: 34px;
