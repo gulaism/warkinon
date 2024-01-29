@@ -182,13 +182,12 @@
 
 .feature {
     background-color: #F5F4F0;
-    height: 788px;
     margin-bottom: 193px;
 }
 
 .feature .container {
     width: 1200px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .feature .container .title {
@@ -219,6 +218,7 @@
     width: calc((1200px - 48px) / 3);
     border-radius: 5px;
     border: 1px solid #E8E8E8;
+    padding: 15px 21px;
 }
 
 .feature .container .figures .first {
