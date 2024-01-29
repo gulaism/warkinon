@@ -495,13 +495,12 @@
 
 .contact {
     background-color: var(--second-blue);
-    height: 524px;
+    
     padding: 132px;
 }
 
 .contact .container {
     width: 870px;
-    height: 260px;
     text-align: center;
 }
 
